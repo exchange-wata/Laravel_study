@@ -9,12 +9,12 @@ use Illuminate\Http\Response;
 /**
  * 
  */
-class HomeController extends Controller{
+// class HomeController extends Controller{
 	
-	public function index(){
-		return view('home');
-	}
-}
+// 	public function index(){
+// 		return view('home');
+// 	}
+// }
 
 // class HomeController extends Controller{
 	
@@ -23,12 +23,12 @@ class HomeController extends Controller{
 // 	}
 // }
 
-// class HomeController extends Controller{
+class HomeController extends Controller{
 	
-// 	public function index(){
-// 		return view('contact');
-// 	}
-// }
+	public function index(){
+		return view('contact');
+	}
+}
 
 
  ?>
