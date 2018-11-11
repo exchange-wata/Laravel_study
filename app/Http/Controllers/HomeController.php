@@ -15,4 +15,20 @@ class HomeController extends Controller{
 		return view('home');
 	}
 }
+
+// class HomeController extends Controller{
+	
+// 	public function index(){
+// 		return view('about');
+// 	}
+// }
+
+// class HomeController extends Controller{
+	
+// 	public function index(){
+// 		return view('contact');
+// 	}
+// }
+
+
  ?>
