@@ -150,8 +150,8 @@ Route::get('/', function () {
 // Chapter3 85/355 リスト3-16 Blade
 // Route::post('hello', 'HelloController@post');
 
-Route::get('home', 'HomeController@index');
+// Route::get('home', 'HomeController@index');
 // Route::get('about', 'HomeController@index');
-// Route::get('contact', 'HomeController@index');
+Route::get('contact', 'HomeController@index');
 
 ?>
