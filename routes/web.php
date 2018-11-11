@@ -144,8 +144,14 @@ Route::get('/', function () {
 
 
 // Chapter3 79/355 リスト3-11 template
-Route::get('hello', 'HelloController@index');
+// Route::get('hello', 'HelloController@index');
 
 
 // Chapter3 85/355 リスト3-16 Blade
-Route::post('hello', 'HelloController@post');
+// Route::post('hello', 'HelloController@post');
+
+Route::get('home', 'HomeController@index');
+// Route::get('about', 'HomeController@index');
+// Route::get('contact', 'HomeController@index');
+
+?>
